@@ -22,6 +22,7 @@ const ContactV1 = () => {
           <ContactInfo2 />
         </Grid>
       </Grid>
+      
       <ContactForm />
       <Map />
       <CallToActionV1 />
