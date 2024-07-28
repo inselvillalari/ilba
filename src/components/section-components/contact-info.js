@@ -14,32 +14,65 @@ class ContactInfo extends Component {
       <div className="ltn__contact-address-area mb-90">
         <div className="container">
           <div className="column">
-            <div className="col-lg-10">
+            <div >
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
-                <div className="ltn__contact-address-icon">
-                  <EmailIcon fontSize="large" />
-                  {/* <img
-                    src={publicUrl + "assets/img/icons/10.png"}
-                    alt="Icon Image"
-                  /> */}
+                <div className="container">
+                  <div>
+                    <div className="ltn__contact-address-icon">
+                      <EmailIcon fontSize="large" />
+                      {/* <img
+                 src={publicUrl + "assets/img/icons/10.png"}
+                 alt="Icon Image"
+               /> */}
+                    </div>
+                    <h3>Email Address</h3>
+                    <p>
+                      info@ilba.com.tr
+                      <br />
+                      info@in-sel.com.tr
+                    </p>
+                  </div>
+                  <div>
+                    <div className="ltn__contact-address-icon">
+                      <EmailIcon fontSize="large" />
+                      {/* <img
+                 src={publicUrl + "assets/img/icons/10.png"}
+                 alt="Icon Image"
+               /> */}
+                    </div>
+                    <h3>Email Address</h3>
+                    <p>
+                      info@ilba.com.tr
+                      <br />
+                      info@in-sel.com.tr
+                    </p>
+                  </div>
+                  <div>
+                    <div className="ltn__contact-address-icon">
+                      <EmailIcon fontSize="large" />
+                      {/* <img
+                 src={publicUrl + "assets/img/icons/10.png"}
+                 alt="Icon Image"
+               /> */}
+                    </div>
+                    <h3>Email Address</h3>
+                    <p>
+                      info@ilba.com.tr
+                      <br />
+                      info@in-sel.com.tr
+                    </p>
+                  </div>
                 </div>
-                <h3>Email Address</h3>
-                <p>
-                  info@ilba.com.tr
-                  <br />
-                  
-                  info@in-sel.com.tr
-                </p>
               </div>
             </div>
-            <div className="col-lg-10">
+            {/* <div className="col-lg-10">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                 <div className="ltn__contact-address-icon">
                   <ContactPhoneIcon fontSize="large" />
-                  {/* <img
+                  <img
                     src={publicUrl + "assets/img/icons/11.png"}
                     alt="Icon Image"
-                  /> */}
+                  />
                 </div>
                 <h3>Phone Number</h3>
                 <p>
@@ -51,10 +84,10 @@ class ContactInfo extends Component {
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                 <div className="ltn__contact-address-icon">
                   <LocationOnIcon fontSize="large" />
-                  {/* <img
+                  <img
                     src={publicUrl + "assets/img/icons/12.png"}
                     alt="Icon Image"
-                  /> */}
+                  />
                 </div>
                 <h3>Office Address</h3>
                 <p>
@@ -63,7 +96,7 @@ class ContactInfo extends Component {
                   Muratpaşa, ANTALYA
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

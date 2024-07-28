@@ -2871,6 +2871,13 @@ ul {
   .mb-sm-20 {
     margin-bottom: 20px;
   }
+ 
+}
+
+@media (min-width: 1800px) {
+  .mb-lg--100 {
+    margin-bottom: -100px;
+  }
 }
 
 /* Margin Bottom Minus */
