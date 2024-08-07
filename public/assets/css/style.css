@@ -13657,6 +13657,7 @@ blockquote::before {
   box-shadow: none;
   border: 2px solid var(--border-color-11);
   padding: 50px 30px 25px;
+  min-height: 562px;
 }
 .ltn__contact-address-item-3 i {
   font-size: 50px;

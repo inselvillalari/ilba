@@ -54,27 +54,27 @@ const ContactV1 = () => {
   return (
     <div>
       <Navbar />
-      <PageHeader headertitle="Contact Us" subheader="Contact" />
+      <PageHeader headertitle="Bize Ulaşın" subheader="İletişim" />
       <Container>
         <Grid container>
           <Grid xs={12} md={6}>
             <ContactInfo />
           </Grid>
           <Grid xs={12} md={6}>
-            <ContactInfo />
+            <ContactInfo2 />
           </Grid>
         </Grid>
       </Container>
       <ContactForm />
       <Box sx={{ width: "100%" }}>
         <AntTabs value={value} onChange={handleChange} aria-label="ant example">
-          <AntTab label="MERKEZ OFİS" value={1}/>
-          <AntTab label="MERKEZ ŞANTİYE" value={2}/>
+          <AntTab label="MERKEZ OFİS" value={1} />
+          <AntTab label="MERKEZ ŞANTİYE" value={2} />
         </AntTabs>
       </Box>
       {value == 1 && <MapOffice />}
       {value == 2 && <MapConstruction />}
-      <CallToActionV1 />
+      {/* <CallToActionV1 /> */}
       <Footer />
     </div>
   );

@@ -16,24 +16,23 @@ class Navbar extends Component {
                     <ul>
                       <li>
                         <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you">
-                          <i className="icon-mail" /> info@webmail.com
+                          <i className="icon-mail" /> info@ilba.com.tr
                         </a>
                       </li>
                       <li>
                         <a href="locations.html">
-                          <i className="icon-placeholder" /> 15/A, Nest Tower,
-                          NYC
+                          <i className="icon-placeholder" /> Muratpaşa, ANTALYA
                         </a>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <div className="col-md-5">
+                {/* <div className="col-md-5">
                   <div className="top-bar-right text-end">
                     <div className="ltn__top-bar-menu">
                       <ul>
                         <li className="d-none">
-                          {/* ltn__language-menu */}
+                          ltn__language-menu
                           <div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
                             <ul>
                               <li>
@@ -70,7 +69,7 @@ class Navbar extends Component {
                           <Social />
                         </li>
                         <li>
-                          {/* header-top-btn */}
+                          header-top-btn
                           <div className="header-top-btn">
                             <Link to="/add-listing">Add Listing</Link>
                           </div>
@@ -78,7 +77,7 @@ class Navbar extends Component {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -89,10 +88,10 @@ class Navbar extends Component {
                   <div className="site-logo-wrap">
                     <div className="site-logo go-top">
                       <Link to="/">
-                        <img
+                        {/* <img
                           src={publicUrl + "assets/img/logo.png"}
                           alt="Logo"
-                        />
+                        /> */}
                       </Link>
                     </div>
                     <div className="get-support clearfix d-none">
@@ -113,9 +112,9 @@ class Navbar extends Component {
                     <nav>
                       <div className="ltn__main-menu go-top">
                         <ul>
-                          <li className="menu-icon">
-                            <Link to="/">Home</Link>
-                            <ul className="sub-menu menu-pages-img-show">
+                          <li>
+                            <Link to="/">Anasayfa</Link>
+                            {/* <ul className="sub-menu menu-pages-img-show">
                               <li>
                                 <Link to="/">Home Style 01</Link>
                                 <img
@@ -219,11 +218,11 @@ class Navbar extends Component {
                                   alt="#"
                                 />
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
-                          <li className="menu-icon">
-                            <Link to="/about">About</Link>
-                            <ul>
+                          <li>
+                            <Link to="/about">Kurumsal</Link>
+                            {/* <ul>
                               <li>
                                 <Link to="/about">About</Link>
                               </li>
@@ -258,11 +257,11 @@ class Navbar extends Component {
                               <li>
                                 <Link to="/location">Google Map Locations</Link>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
-                          <li className="menu-icon">
-                            <Link to="/shop">Shop</Link>
-                            <ul>
+                          <li>
+                            <Link to="/shop">Biten İşlerimiz</Link>
+                            {/* <ul>
                               <li>
                                 <Link to="/shop">Shop</Link>
                               </li>
@@ -297,11 +296,11 @@ class Navbar extends Component {
                               <li>
                                 <Link to="/register">Register</Link>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
-                          <li className="menu-icon">
-                            <Link to="/blog-grid">News</Link>
-                            <ul>
+                          <li>
+                            <Link to="/blog-grid">Devam Eden İşlerimiz</Link>
+                            {/* <ul>
                               <li>
                                 <Link to="/blog">News</Link>
                               </li>
@@ -321,11 +320,11 @@ class Navbar extends Component {
                               <li>
                                 <Link to="/blog-details">News details</Link>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
-                          <li className="menu-icon">
-                            <Link to="#">Pages</Link>
-                            <ul className="mega-menu">
+                          <li>
+                            <Link to="#">Referanslarımız</Link>
+                            {/* <ul className="mega-menu">
                               <li>
                                 <a href="#">Inner Pages</a>
                                 <ul>
@@ -418,10 +417,10 @@ class Navbar extends Component {
                                   />
                                 </Link>
                               </li>
-                            </ul>
+                            </ul> */}
                           </li>
                           <li>
-                            <Link to="/contact">Contact</Link>
+                            <Link to="/contact">İletişim</Link>
                           </li>
                         </ul>
                       </div>
@@ -454,7 +453,7 @@ class Navbar extends Component {
                     </div>
                   </div>
                   {/* user-menu */}
-                  <div className="ltn__drop-menu user-menu">
+                  {/* <div className="ltn__drop-menu user-menu">
                     <ul>
                       <li>
                         <Link to="#">
@@ -473,9 +472,9 @@ class Navbar extends Component {
                         </ul>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   {/* mini-cart */}
-                  <div className="mini-cart-icon">
+                  {/* <div className="mini-cart-icon">
                     <a
                       href="#ltn__utilize-cart-menu"
                       className="ltn__utilize-toggle"
@@ -483,7 +482,7 @@ class Navbar extends Component {
                       <i className="icon-shopping-cart"></i>
                       <sup>2</sup>
                     </a>
-                  </div>
+                  </div> */}
                   {/* mini-cart */}
                   {/* Mobile Menu Button */}
                   <div className="mobile-menu-toggle d-xl-none">
@@ -518,7 +517,7 @@ class Navbar extends Component {
             <div className="ltn__utilize-menu-head">
               <div className="site-logo">
                 <Link to="/">
-                  <img src={publicUrl + "assets/img/logo.png"} alt="Logo" />
+                  {/* <img src={publicUrl + "assets/img/logo.png"} alt="Logo" /> */}
                 </Link>
               </div>
               <button className="ltn__utilize-close">×</button>
@@ -534,8 +533,8 @@ class Navbar extends Component {
             <div className="ltn__utilize-menu">
               <ul>
                 <li>
-                  <a href="#">Home</a>
-                  <ul className="sub-menu">
+                  <a href="#">Anasayfa</a>
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link to="/">Home Style 01</Link>
                     </li>
@@ -569,11 +568,11 @@ class Navbar extends Component {
                     <li>
                       <Link to="/home-v10">Home Style 10</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
-                  <ul className="sub-menu">
+                  <Link to="/about">Kurumsal</Link>
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link to="/about">About</Link>
                     </li>
@@ -604,11 +603,11 @@ class Navbar extends Component {
                     <li>
                       <Link to="/location">Google Map Locations</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <Link to="/shop">Shop</Link>
-                  <ul className="sub-menu">
+                  <Link to="/shop">BİTEN İŞLERİMİZ</Link>
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link to="/shop">Shop</Link>
                     </li>
@@ -639,11 +638,11 @@ class Navbar extends Component {
                     <li>
                       <Link to="/register">Register</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <Link to="/blog-grid">News</Link>
-                  <ul className="sub-menu">
+                  <Link to="/blog-grid">DEVAM EDEN İŞLERİMİZ</Link>
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link to="/blog">News</Link>
                     </li>
@@ -659,11 +658,11 @@ class Navbar extends Component {
                     <li>
                       <Link to="/blog-details">News details</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <Link to="#">Pages</Link>
-                  <ul className="sub-menu">
+                  <Link to="#">Referanslarımız</Link>
+                  {/* <ul className="sub-menu">
                     <li>
                       <Link to="/about">About</Link>
                     </li>
@@ -709,14 +708,14 @@ class Navbar extends Component {
                     <li>
                       <Link to="/coming-soon">Coming Soon</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact">İLETİŞİM</Link>
                 </li>
               </ul>
             </div>
-            <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
+            {/* <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
               <ul>
                 <li>
                   <Link to="/my-account" title="My Account">
@@ -745,7 +744,7 @@ class Navbar extends Component {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
             <div className="ltn__social-media-2">
               <ul>
                 <li>
